@@ -3,10 +3,12 @@
  Theme URI :
  Author: Frank Simon
  Author URI:
- Description:
+ Description: A WordPress Theme
  Version: 1.0
  License: GNU General Public License v3.0 or later
  License URI: http://www.gnu.org/licenses/gpl-3.0
- Tags: restaurant, mobile first, responsive, pizza
+ Tags: html5, css3, city, blog
  Text-Domain: torontoonline
 */
+body {
+  background-color: red; }
