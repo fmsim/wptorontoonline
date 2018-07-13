@@ -16,6 +16,13 @@
               <img src="<?php echo get_stylesheet_directory_uri() ?>/images/logo.svg;">
             </a>
           </div> <!-- .logo -->
+          <nav id="site-navigation" class="main-navigation" role="navigation">
+            <?php
+              wp_nav_menu([
+                'theme_location' => 'main-menu'
+              ]);
+            ?>
+          </nav>
         </div> <!-- .container -->
       </header> <!-- #masthead .site-header -->
       <div class="container content">

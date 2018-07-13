@@ -1,6 +1,13 @@
       </div> <!-- .container .content -->
     </div> <!-- #page -->
     <footer class="site-footer" role="contentinfo">
+      <nav id="footer-navigation" class="footer-navigation" role="navigation">
+        <?php
+          wp_nav_menu([
+            'theme_location' => 'main-menu'
+          ]);
+        ?>
+      </nav>
       <hr>
       <div class="copyright">
         <p>Toronto Online <?php echo date('Y') ?></p>
