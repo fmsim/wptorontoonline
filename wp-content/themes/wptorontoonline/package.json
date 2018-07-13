@@ -15,7 +15,7 @@
   "devDependencies": {
     "browser-sync": "^2.23.7",
     "es6-promise": "^4.2.4",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-imagemin": "^4.1.0",
@@ -24,6 +24,7 @@
     "gulp-sass": "^4.0.1",
     "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.8",
-    "hoek": "^5.0.3"
+    "hoek": "^5.0.3",
+    "minimatch": "^3.0.4"
   }
 }
