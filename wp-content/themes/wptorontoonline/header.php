@@ -18,9 +18,9 @@
           </div> <!-- .logo -->
           <nav id="site-navigation" class="main-navigation" role="navigation">
             <?php
-              wp_nav_menu([
-                'theme_location' => 'main-menu'
-              ]);
+              wp_nav_menu(array(
+                'theme_location' => 'main_menu'
+              ));
             ?>
           </nav>
         </div> <!-- .container -->
