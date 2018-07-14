@@ -1,0 +1,83 @@
+/*
+ Template Toronto Online
+ Theme URI :
+ Author: Frank Simon
+ Author URI:
+ Description: A WordPress Theme
+ Version: 1.0
+ License: GNU General Public License v3.0 or later
+ License URI: http://www.gnu.org/licenses/gpl-3.0
+ Tags: html5, css3, city, blog
+ Text-Domain: torontoonline
+*/
+
+*,
+*:after,
+*:before {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Open Sans", sans-serif;
+  font-size: 140%;
+  line-height: 1.5;
+  color: $black;
+  background-color: $white;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.clear {
+  clear: both;
+}
+
+/** Resets **/
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: $mainRed;
+}
+/** End of resets **/
+
+h2 {
+  font-size: 20px;
+  font-size: 2rem;
+  color: $mainRed;
+  text-align: center;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-size: 1.8rem;
+  color: $mainRed;
+}
+
+p {
+  color: $black;
+  font-size: 12px;
+  font-size: 1.2rem;
+  text-align: justify;
+}

@@ -1,0 +1,24 @@
+/** @media only screen and (min-width : 768px) **/
+@mixin media-header--768() {
+  header nav ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+}
+
+/** @media only screen and (min-width: 992px) **/
+@mixin media-header--992() {
+  header .logo {
+    width: 40%;
+    float: left;
+  }
+  header nav {
+    float: left;
+    width: 60%;
+    margin-top: 60px;
+
+    ul {
+      float: right;
+    }
+  }
+}
