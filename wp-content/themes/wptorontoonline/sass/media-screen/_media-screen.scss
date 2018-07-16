@@ -4,6 +4,8 @@
 
 @media only screen and (min-width : 768px) {
   @include media-header--768();
+  @include page-primary();
+  @include sidebar-secondary();
 }
 
 @media only screen and (min-width: 992px) {

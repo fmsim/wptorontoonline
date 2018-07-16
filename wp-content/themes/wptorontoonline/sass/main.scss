@@ -1,0 +1,24 @@
+/*
+ Template Toronto Online
+ Theme URI :
+ Author: Frank Simon
+ Author URI:
+ Description: A WordPress Theme
+ Version: 1.0
+ License: GNU General Public License v3.0 or later
+ License URI: http://www.gnu.org/licenses/gpl-3.0
+ Tags: html5, css3, city, blog
+ Text-Domain: torontoonline
+*/
+
+@import "variables/variables-colors";
+@import "sidebars/sidebars";
+@import "base/base";
+@import "header/header";
+@import "images/featured-image";
+@import "footer/footer";
+@import "content/content";
+@import "mixins/media-header";
+@import "mixins/media-sidebars";
+@import "mixins/media-footer";
+@import "media-screen/media-screen";

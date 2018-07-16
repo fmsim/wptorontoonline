@@ -1,0 +1,17 @@
+/** Main content**/
+@mixin page-primary() {
+  .primary {
+    float: left;
+    width: 70%;
+    padding-right: 20px;
+  }
+}
+
+@mixin sidebar-secondary() {
+  .secondary {
+    float: right;
+    width: 30%;
+    margin: 0;
+    clear: none;
+  }
+}
