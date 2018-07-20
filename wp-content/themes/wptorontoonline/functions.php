@@ -33,6 +33,7 @@
   add_theme_support('post-thumbnails');
 
   add_image_size('featured', 1100, 418, true); // name, width, height, crop
+  add_image_size('medium-blog', 348, 208, true);
 
   /** Removes wordpress bar on the top **/
   add_filter('show_admin_bar', '__return_false');

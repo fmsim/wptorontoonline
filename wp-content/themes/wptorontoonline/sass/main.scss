@@ -12,13 +12,16 @@
 */
 
 @import "variables/variables-colors";
+@import "blogs/what-to-visit";
 @import "sidebars/sidebars";
 @import "base/base";
+@import "base/single";
 @import "header/header";
 @import "images/featured-image";
-@import "footer/footer";
 @import "content/content";
 @import "mixins/media-header";
+@import "mixins/media-blogs";
 @import "mixins/media-sidebars";
 @import "mixins/media-footer";
 @import "media-screen/media-screen";
+@import "footer/footer";

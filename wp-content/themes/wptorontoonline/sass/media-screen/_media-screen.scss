@@ -1,5 +1,5 @@
 @media only screen and (min-width : 480px) {
-
+  @include what-to-visit--480();
 }
 
 @media only screen and (min-width : 768px) {
@@ -10,6 +10,7 @@
 
 @media only screen and (min-width: 992px) {
   @include media-header--992();
+  @include what-to-visit--768();
   @include media-footer--992();
   .container {
     width: 990px;
