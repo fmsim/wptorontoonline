@@ -12,7 +12,7 @@
 <div id="primary" class="primary post-<?php the_ID(); ?>">
   <?php while (have_posts()) : the_post(); ?>
     <article>
-      <div class="writen-info">
+      <div class="written-info">
         <div class="column">
           <?php the_tags(__('Tags for this post: ', 'toronotoonline'), ', ', '<br>'); ?>
         </div>

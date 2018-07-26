@@ -1,0 +1,24 @@
+/** Single post **/
+.single {
+  textarea {
+    width: 100%;
+  }
+
+  .written-info {
+    background-color: $backgroundGrey;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 12px;
+    font-size: 1.2rem;
+    overflow: auto;
+
+    a {
+      font-weight: bold;
+    }
+
+    .column {
+      float: left;
+      margin-right: 20px;
+    }
+  }
+}
