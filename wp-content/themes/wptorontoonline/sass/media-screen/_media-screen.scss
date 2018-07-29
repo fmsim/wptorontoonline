@@ -1,16 +1,19 @@
 @media only screen and (min-width : 480px) {
   @include what-to-visit--480();
+  @include blog--480();
+  @include categories--480();
 }
 
 @media only screen and (min-width : 768px) {
   @include media-header--768();
-  @include page-primary();
-  @include sidebar-secondary();
+  @include what-to-visit--768();
+  @include page-primary--768();
+  @include sidebar-secondary--768();
+  @include contact-form--768;
 }
 
 @media only screen and (min-width: 992px) {
   @include media-header--992();
-  @include what-to-visit--768();
   @include media-footer--992();
   .container {
     width: 990px;

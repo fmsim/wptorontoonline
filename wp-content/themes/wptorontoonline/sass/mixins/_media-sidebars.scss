@@ -2,7 +2,7 @@
   * @media only screen and (min-width : 768px)
 *******************************************************************************/
 /** Main content**/
-@mixin page-primary() {
+@mixin page-primary--768() {
   .primary {
     float: left;
     width: 70%;
@@ -14,7 +14,7 @@
   }
 }
 
-@mixin sidebar-secondary() {
+@mixin sidebar-secondary--768() {
   .secondary {
     float: right;
     width: 30%;
